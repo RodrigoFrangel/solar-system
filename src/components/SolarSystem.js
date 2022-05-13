@@ -6,9 +6,9 @@ import Title from './Title';
 class SolarSystem extends React.Component {
   render() {
     return (
-      <div className="beautiful-planets">
-        <div data-testid="solar-system">
-          <Title headline="Planetas" />
+      <div data-testid="solar-system">
+        <Title headline="Planetas" />
+        <div className="beautiful-planets">
           {Planets.map((planet) => (
             <PlanetCard
               key={ planet.name }
