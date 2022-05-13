@@ -1,5 +1,43 @@
 body {
   background-image: url('./images/background.png');
   color: white;
+  font-family: Philosopher , sans-serif;
   text-align: center;
 }
+
+h1 {
+  font-size: 50px;
+  letter-spacing: 6px;
+}
+
+h2 {
+  border: white solid 1px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  padding: 10px 0;
+  transition: 800ms;
+  width: 40%;
+}
+
+h2:hover {
+  border: rgba(0, 0, 0, 0) solid 1px;
+  letter-spacing: 6px;
+}
+
+.beautiful-planets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px auto;
+  width: 70%;
+}
+
+img {
+  transition: all 800ms;
+  width: 200px;
+}
+
+img:hover {
+  filter: drop-shadow(1px 1px 8px rgba(98, 98, 100, 0.507));
+  transform: scale(01.1);}
