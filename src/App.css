@@ -11,8 +11,9 @@ h1 {
 }
 
 h2 {
-  border: white solid 1px;
-  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: rgba(255, 255, 255, 0.4) solid 1px;
+  border-radius: 10px;
   letter-spacing: 1px;
   margin: 0 auto;
   padding: 10px 0;
@@ -21,6 +22,7 @@ h2 {
 }
 
 h2:hover {
+  background-color: rgba(0, 0, 0, 0);
   border: rgba(0, 0, 0, 0) solid 1px;
   letter-spacing: 6px;
 }
@@ -40,4 +42,44 @@ img {
 
 img:hover {
   filter: drop-shadow(1px 1px 8px rgba(98, 98, 100, 0.507));
-  transform: scale(01.1);}
+  transform: scale(01.1);
+}
+
+.beautiful-missions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 90%;
+}
+
+.mission-info .mission-title {
+  font-size: larger;
+  font-weight: 700;
+}
+
+hr {
+  background-color: white;
+  border: none;
+  height: 0.1px;
+  margin-bottom: 20px;
+}
+
+.mission-info {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: rgba(255, 255, 255, 0.4) solid 1px;
+  border-radius: 10px;
+  line-height: 7px;
+  margin: 12px;
+  padding: 0 18px;
+  text-align: left;
+  transition: 600ms;
+  width: 22%;
+}
+
+.mission-info:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  border: rgba(255, 255, 255, 0.226) solid 1px;
+  transform: scale(01.07);
+}
